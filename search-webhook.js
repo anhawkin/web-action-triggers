@@ -25,7 +25,7 @@ function main(params) {
         searchTerm = params.event["com.adobe.mcloud.pipeline.pipelineMessage"]["com.adobe.mcloud.protocol.trigger"].enrichments.analyticsHitSummary.dimensions.prop11.data[0];
         returnObject.body = searchTerm;
         var options = {
-            url: "https://hooks.slack.com/services/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",
+            url: "https://hooks.slack.com/services/T02HN1D3G/XXXXX/4UVNbdzskwRUU3DA9j3oY9dO",
             json: true,
             body: {
                 "text": searchTerm
